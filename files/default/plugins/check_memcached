@@ -1,0 +1,5 @@
+#!/usr/bin/env perl
+use Nagios::Plugins::Memcached;
+
+my $np = Nagios::Plugins::Memcached->new;
+$np->run;
